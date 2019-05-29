@@ -7,6 +7,9 @@ using BowlingGame.Models;
 
 namespace BowlingGame.Repository
 {
+    /// <summary>
+    /// strike frame handler
+    /// </summary>
     class StrikeFrameScoreCalculate: AbstractFrameScoreCalculate
     {
         public StrikeFrameScoreCalculate(FrameScore frame) : base(frame)

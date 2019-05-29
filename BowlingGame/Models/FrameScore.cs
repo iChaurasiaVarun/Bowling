@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BowlingGame.Models
 {
+    /// <summary>
+    /// Class to handle frame score chance wise
+    /// </summary>
     public class FrameScore
     {
         internal int FirstChanceScore;

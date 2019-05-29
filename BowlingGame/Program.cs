@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace BowlingGame
 {
+    /// <summary>
+    /// Starter class of bowling application
+    /// </summary>
     class Program
     {
         private static readonly List<Frame> frames = new List<Frame>();
@@ -31,6 +34,11 @@ namespace BowlingGame
             Console.Read();
         }
 
+        /// <summary>
+        /// Transform user console input to frames
+        /// </summary>
+        /// <param name="frameInput"></param>
+        /// <returns></returns>
         private static Frame CreateFrame(string frameInput)
         {
             Frame frame = null;

@@ -7,9 +7,18 @@ using System.Threading.Tasks;
 
 namespace BowlingGame.Repository
 {
+    /// <summary>
+    /// frame processor
+    /// </summary>
     public class FrameProcess : IFrameProcess
     {
         private int frameCount = 0;
+
+        /// <summary>
+        /// to add bonus frame to handle strike and spare scenario
+        /// </summary>
+        /// <param name="abstractFrameScoreCalculates"></param>
+        /// <returns></returns>
         public List<AbstractFrameScoreCalculate> AddBonusFrame(List<AbstractFrameScoreCalculate> abstractFrameScoreCalculates)
         {
             for (int i = 0; i < 10; i++)
@@ -17,6 +26,11 @@ namespace BowlingGame.Repository
             return abstractFrameScoreCalculates;
         }
 
+        /// <summary>
+        /// To convert user input frames to scores frame
+        /// </summary>
+        /// <param name="frames"></param>
+        /// <returns></returns>
         public List<AbstractFrameScoreCalculate> FramesProcess(List<Frame> frames)
         {
             List<AbstractFrameScoreCalculate> abstractFrameScoreCalculates = new List<AbstractFrameScoreCalculate>();
@@ -29,6 +43,11 @@ namespace BowlingGame.Repository
             return abstractFrameScoreCalculates;
         }
 
+        /// <summary>
+        /// To generate appropriate concerete class for calculating the score
+        /// </summary>
+        /// <param name="frame"></param>
+        /// <returns></returns>
         private AbstractFrameScoreCalculate GetScoreCalculate(Frame frame)
         {
             if (frame.FirstChance == "x")
@@ -40,6 +59,11 @@ namespace BowlingGame.Repository
             return new NormalFrameScoreCalculate(new FrameScore( Convert.ToInt16(frame.FirstChance), frame.SecondChance == "-" ? 0 : Convert.ToInt16(frame.SecondChance)));
         }
         
+        /// <summary>
+        /// to handle last frame user input 
+        /// </summary>
+        /// <param name="frame"></param>
+        /// <returns></returns>
         private AbstractFrameScoreCalculate GetLastFrameScore(Frame frame)
         {
             FrameScore frameScore = new FrameScore();

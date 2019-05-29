@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace BowlingGame.Repository
 {
+    /// <summary>
+    /// Spare frame handler
+    /// </summary>
     class SpareFrameScoreCalculate : AbstractFrameScoreCalculate
     {
         public SpareFrameScoreCalculate(FrameScore frame) : base(frame)

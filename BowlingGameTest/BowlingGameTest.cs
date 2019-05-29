@@ -7,12 +7,15 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace BowlingGameTest
 {
     [TestClass]
-    public class UnitTest1
+    public class BowlingGameTest
     {
         List<Frame> frames = null;
         ICalculateFacade calculateFacade = null;
         IFrameProcess frameProcess = null;
 
+        /// <summary>
+        /// for initialization the resources
+        /// </summary>
         [TestInitialize]
         public void InitializeFrame()
         {
@@ -20,7 +23,9 @@ namespace BowlingGameTest
             this.calculateFacade = new CalculateFacade(this.frameProcess);
         }
 
-        
+        /// <summary>
+        /// Top check result for valid input
+        /// </summary>
         [TestMethod]
         public void CheckForValidInput()
         {
@@ -38,9 +43,13 @@ namespace BowlingGameTest
             Assert.AreEqual(this.calculateFacade.CalculateBowlingScore(this.frames), 187);
         }
 
+        /// <summary>
+        /// For cleanup the used resources
+        /// </summary>
         [TestCleanup]
         public void CleanUp()
         {
+            this.frames = null;
             this.frameProcess = null;
             this.calculateFacade = null;
         }

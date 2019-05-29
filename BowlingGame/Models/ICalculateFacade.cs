@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BowlingGame.Models
 {
+    /// <summary>
+    /// interface to provide calculation of game score
+    /// </summary>
     public interface ICalculateFacade
     {
         int CalculateBowlingScore(List<Frame> frames);

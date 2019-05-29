@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BowlingGame.Models
 {
+    /// <summary>
+    /// Frame class to handle input of user
+    /// </summary>
     public class Frame
     {
         public string FirstChance { get; set; }

@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace BowlingGame.Repository
 {
+    /// <summary>
+    /// Calculate facade class for user interaction
+    /// </summary>
     public class CalculateFacade : ICalculateFacade
     {
         IFrameProcess frameProcess = null;
@@ -19,6 +22,12 @@ namespace BowlingGame.Repository
         {
             this.frameProcess = frameProcess;
         }
+
+        /// <summary>
+        /// To calculate the bowling score
+        /// </summary>
+        /// <param name="frames"></param>
+        /// <returns></returns>
         public int CalculateBowlingScore(List<Frame> frames)
         {
             int score = 0;

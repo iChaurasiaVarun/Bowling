@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace BowlingGame.Repository
 {
+    /// <summary>
+    /// Last frame handler 
+    /// </summary>
     class FinalFrameScoreCalculate : AbstractFrameScoreCalculate
     {
 
