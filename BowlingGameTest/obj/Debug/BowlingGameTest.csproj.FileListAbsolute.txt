@@ -1,0 +1,17 @@
+C:\Users\varun\source\repos\BowlingGameTest\obj\Debug\BowlingGameTest.csprojAssemblyReference.cache
+C:\Users\varun\source\repos\BowlingGameTest\obj\Debug\BowlingGameTest.csproj.CoreCompileInputs.cache
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\BowlingGameTest.dll
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\BowlingGameTest.pdb
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\BowlingGame.exe
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\BowlingGame.pdb
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\BowlingGame.exe.config
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\varun\source\repos\BowlingGameTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\varun\source\repos\BowlingGameTest\obj\Debug\BowlingGameTest.csproj.CopyComplete
+C:\Users\varun\source\repos\BowlingGameTest\obj\Debug\BowlingGameTest.dll
+C:\Users\varun\source\repos\BowlingGameTest\obj\Debug\BowlingGameTest.pdb
